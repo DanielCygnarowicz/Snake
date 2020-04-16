@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  background-color: #222;
+}
+h1 {
+  text-align: center;
+}
+.canvas {
+  background-color: rgb(147, 147, 255);
+  position: relative;
+
+  left: 50%;
+  transform: translate(-50%, 0);
+  border: 2px solid black;
+}
+button {
+  outline: none;
+  padding: 6px 10px;
+}
+.wrapper {
+  max-width: 400px;
+  padding: 10px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
